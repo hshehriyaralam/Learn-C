@@ -8,9 +8,7 @@ int main(){
 	float  circumferences; 
 	float area;
 	
-	diameter = radius * 2;
-	circumferences = radius * 2 * 3.142;
-	area = radius * radius * 3.142;
+
 	
 	
 	// get radius from user;
@@ -18,9 +16,23 @@ int main(){
 	   cin >> radius;
 	   cout << endl;
 	   
+	   	diameter = radius * 2;
+	    circumferences = radius * 2 * 3.142;
+	    area = radius * radius * 3.142;
+	   
 	   //print Radius 
 	   cout << "Radius Value ";
 	   cout << radius;
+	   cout << endl;
+	   
+	   //calculate Circumference
+	   cout << "circumferences is ";
+	   cout << circumferences;
+	   cout << endl;
+	   
+	   //area of Circle 
+	   cout << "Area of circle is  ";
+	   cout << area;
 	   cout << endl;
 	   
 	return 0;
